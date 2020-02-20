@@ -1,0 +1,13 @@
+$TTL    60000
+@               IN      SOA     serv.small        root.serv.small. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@               IN      NS      serv.small.
+serv       	IN      A       10.68.7.2
+routeb		IN	A	10.68.7.66
+routec          IN      A       10.68.7.130
+
