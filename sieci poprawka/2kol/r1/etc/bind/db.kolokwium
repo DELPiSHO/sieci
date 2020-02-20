@@ -1,0 +1,12 @@
+$TTL    60000
+@               IN      SOA     prima.kolokwium.        root.prima.kolokwium. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@               IN      NS      prima.kolokwium.
+prima        	IN      A       192.168.43.3
+routeb		IN	A	192.168.43.35
+
